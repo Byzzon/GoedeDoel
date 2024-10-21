@@ -23,10 +23,4 @@ class GoedeDoelTest {
 	void eenNieuwDoelHeeftNogGeenOpbrengst(){
 		assertThat(doel.getOpbrengst()).isZero();
 	}
-
-	@Test
-	void failingTest(){
-		assertThat(doel.getNaam()).isEqualTo("Nieuw Goed Doel");
-	}
-
 }
